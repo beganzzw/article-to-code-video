@@ -66,9 +66,11 @@ visibility: "public"
 - `template/`：**内置可直接编译运行的 Remotion 4 项目模板**
   - `template/scripts/tts_build.py`：自动 TTS 配音与生成 `timeline.ts`、`subs.ts`
   - `template/scripts/sfx.py`：程序化物理音效合成器与混音工具（吸收自 `lemo-opuscar`）
+  - `template/scripts/fetch_assets.py`：免 Key 一键拉取 100% 免费商用素材（Iconify 20万+ 开源图标、DiceBear CC0 手绘打工人/Agent 插画、NASA 公有领域实拍照片）并自动登记 `CREDITS.md`
   - `template/scripts/preview.sh` / `render.sh`：样片快速预览与全片高保真并发渲染
   - `template/src/overlay/`：科技感 HUD 胶囊、底部章节进度条、片头片尾
   - `template/src/fx.tsx` / `ui.tsx`：扫光、光环、舞台光线、常用矢量图元
+- `references/free-commercial-assets.md`：免费可商用素材源白名单（CC0 / Public Domain / MIT / OFL）与自动拉取规范
 - `references/director-grammar.md`：电影级代码视频导演法则（标尺、原生大招、相机语法、阅读时间公式、声音设计）
 - `references/style-presets.md`：六大经典代码视频视觉风格预设库与自定义风格派生指南
 - `references/workflow.md`：带 4 大门禁的五步全闭环标准作业 SOP
