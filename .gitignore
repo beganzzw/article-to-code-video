@@ -1,0 +1,28 @@
+# Node & Dependencies
+node_modules/
+.npm/
+package-lock.json
+
+# Build & Render Outputs
+dist/
+build/
+out/
+renders/
+fin_frames/
+*.mp4
+*.webm
+*.wav
+*.mp3
+
+# Temporary & Cache
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+.workbuddy-ai/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
